@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+a:hover{
+    color: var(--primary-color)!important;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --primary-color:#f5c332;
+    --secondary-color:#231E41;
+    --white-color:#fff;
+    --black-color:#1c1c1c;
+
+    --text-primary:#f5c332;
+    --text-secondary:#231E41;
+    --text-white:#fff;
+    --text-black:#555;
+}
+body{
+    font-family: 'roboto',sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+}
+h1{
+    font-size:3.125rem ;
+    font-weight:900 ;
+    margin-bottom: 3rem;
+    text-transform: capitalize;
+    color:var(--text-color) ;
+}
+h2{
+    font-size:2.25rem ;
+    font-weight:700 ;
+    /* line-height:1.3rem ; */
+    
+    text-transform: capitalize;
+    color:var(--text-color) ;
+}
+h4{
+    font-size: 1.125rem;
+    color:var(--text-color);
+    font-weight:800 ;
+    margin-bottom:0.5rem; 
+    text-transform:capitalize;
+
+}
+h5{
+    font-size: 1.25rem;
+    color:var(--text-color);
+    font-weight:700 ;
+    margin-bottom:0.5rem; 
+    text-transform:capitalize;
+}
+h5{
+    font-size: 1rem;
+    color:var(--text-color);
+    font-weight:400 ;
+    line-height: 1.75rem;
+    letter-spacing:.0625rem;
+}
+.main-btn{
+font-size:0.9375rem;
+font-weight:400;
+padding:0.625rem 1.875rem ;
+text-transform: capitalize;
+box-shadow:0.125rem .625rem -0.0625rem rgb(0 0 0/19%);
+-webkit-transition:all .4s ease-out 0s ;
+-ms-transition: all .4s ease-out 0s;
+-o-transition: all .4s ease-out 0s;
+-moz-transition:all .4s ease-out 0s ;
+transition: all .4s ease-out 0s;
+border:0.1875 solid var(--primary-color) ;
+background-color: var(--primary-color);
+color: var(--black-color);
+}
+.main-btn:hover{
+    background: transparent;
+    color: var(--text-primary);
+}
+.wrapper{
+    padding-top:6.25rem;
+    padding-bottom: 6.25rem;
+}
+.text-content{
+    text-align: center;
+    /* padding-top: 4rem; */
+    width:70% ;
+    margin: 0 auto;
+}
+.counter-section h2,
+.testimonial-section-h2,
+.book-food-text h2{
+color: var(--text-primary);
+}
+
+
+/* navbar section */
+.navigation-wrap .scroll-on{
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    background-color: var(--white-color);
+    left: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.navigation-wrap .navbar-brand img{
+width:13rem;
+}
+
+.navigation-wrap .nav-item{
+    padding: 0 0.625rem ;
+    transition: all 200ms linear;
+}
+
+.navigation-wrap .navbar-toggler:focus{
+    outline: none;
+    border: unset;
+    box-shadow: none;
+}
+
+.navigation-wrap .nav-link{
+    font-size: 1rem;
+    font-weight:600 ;
+    text-transform: capitalize;
+    color: var(--text-secondary);
+    letter-spacing: .0625rem;
+}
+.navigation-wrap .main-btn{
+    padding:0.3125rem 1.4375rem ;
+    box-shadow:none ;
+    margin-left: 0.625rem;
+}
+
+.top-banner{
+    width: 100%;
+    background-image: url("image/bg/bg-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 14.875rem 0 9.335rem;
+}
+
+.counter-section{
+    background-color: var(--black-color);
+    padding:2.5rem 0 ;
+}
+.counter-section p{
+    color: var(--text-white);
+    text-transform: uppercase;
+    margin-bottom: 0 ;
+}
+
+.navigation-wrap{
+    text-align: center;
+    background-color: var(--white-color);
+}
+.navigation-wrap .nav-link{
+    line-height: 1.875rem;
+}
+.food-type{
+    padding: 3.125rem;
+}
+.food-type ul li{
+    font-size: 1rem;
+    color: var()var(--text-black);
+    line-height: 2rem;
+    position: relative;
+    margin-left: 1.945rem;
+}
+.food-type ul li::before{
+    font-size:1.25rem;
+    font-weight:900 ;
+    color: var(--text-primary);
+    position: absolute;
+    left: -2.1875rem;
+    content:'\f550';
+    display: inline-block;
+}
+
+.story-section{
+    width: 100%;
+    height: 28.124rem;
+    background-image: url(image/bg/bg-2.jpg);
+    background-position:center center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5.124rem;
+    text-align: center;
+}
+
+.explore-food .card{
+    background: transparent;
+    border-radius:0.9375rem ;
+    border:0.125rem dotted var(--primary-color);
+}
+.explore-food .card span{
+    font-size:1.5rem ;
+    color: var(--text-primary);
+    padding-bottom: 1rem;
+display: block;
+}
+del{
+    color: var(--text-black);
+}

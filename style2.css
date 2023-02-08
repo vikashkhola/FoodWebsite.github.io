@@ -1,0 +1,13 @@
+@media(max-width:667px){
+    h1{
+        font-size: 1.875rem;
+    }
+.navigation-wrap .navbar-brand img{
+    width: 11rem;
+}
+.story-section{
+    height: auto;
+    padding: 3rem 0;
+}
+
+}
